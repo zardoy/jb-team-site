@@ -1,0 +1,29 @@
+{
+    "name": "jb-team-site",
+    "version": "0.0.0",
+    "private": true,
+    "license": "MIT",
+    "scripts": {
+        "build": "nuxt build",
+        "dev": "nuxt dev",
+        "dev-next": "nuxt dev --experimental-vite",
+        "generate": "nuxt generate",
+        "preview": "nuxt preview",
+        "postinstall": "nuxt prepare",
+        "lint": "eslint \"components/**/*.{ts,vue}\" && eslint src/**"
+    },
+    "devDependencies": {
+        "@nuxtjs/tailwindcss": "^6.6.6",
+        "eslint": "^8.48.0",
+        "eslint-config-zardoy": "^0.2.17",
+        "nuxt": "^3.7.0",
+        "tailwindcss": "^3.3.1"
+    },
+    "dependencies": {
+        "@nuxt/image": "^0.7.1",
+        "@swimm/vue-monaco": "^1.2.5",
+        "monaco-editor": "^0.41.0",
+        "sass": "^1.66.1",
+        "vue-material-design-icons": "^5.2.0"
+    }
+}
