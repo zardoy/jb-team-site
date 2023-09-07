@@ -25,3 +25,5 @@ experiment-*
 .eslintcache
 Thumbs.db
 .idea/
+.vercel
+.output
