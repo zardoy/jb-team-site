@@ -11,9 +11,6 @@ export default () => defineNuxtConfig({
     },
     app: {
         baseURL: './',
-        pageTransition: {
-            name: 'fade',
-        },
         head: {
             title: 'ra1next Official Homepage',
             // gen description

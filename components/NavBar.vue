@@ -12,8 +12,10 @@ const loggedInUser = ref(null)
                 </h2>
             </div>
             <div class="navbar-right">
-                <!-- <div class="navbar-menu"><a href="#">API Playground</a></div>
-                <div v-if="!loggedInUser">
+                <div class="navbar-menu">
+                    <NuxtLink href="/playground">API Playground</NuxtLink>
+                </div>
+                <!-- <div v-if="!loggedInUser">
                     <AccountCircleOutlined />
                 </div>
                 <div v-else>
