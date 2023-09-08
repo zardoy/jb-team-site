@@ -10,7 +10,8 @@
         "generate": "nuxt generate",
         "preview": "nuxt preview",
         "postinstall": "nuxt prepare",
-        "lint": "eslint \"components/**/*.{ts,vue}\" && eslint src/**"
+        "lint": "eslint \"components/**/*.{ts,vue}\"",
+        "test": "vitest run"
     },
     "devDependencies": {
         "@nuxtjs/tailwindcss": "^6.6.6",
@@ -21,9 +22,11 @@
     },
     "dependencies": {
         "@nuxt/image": "^0.7.1",
+        "@nuxt/test-utils": "^3.7.1",
         "@swimm/vue-monaco": "^1.2.5",
         "monaco-editor": "^0.41.0",
         "sass": "^1.66.1",
+        "vitest": "^0.34.4",
         "vue-material-design-icons": "^5.2.0"
     }
 }
